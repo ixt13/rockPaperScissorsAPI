@@ -1,0 +1,139 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.formContainer {
+  width: 100%;
+}
+.loginInput {
+  box-sizing: border-box;
+  height: 40px;
+
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+
+.loginButton {
+  height: 46px;
+  left: 0px;
+  top: 193px;
+  background: #580ea2;
+  border-radius: 6px;
+  color: white;
+}
+
+.loginButton:hover {
+  color: white;
+  background: #271a58;
+}
+.loginButton[disabled] {
+  background: #c4c4c4;
+  color: black;
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.topImage {
+  background-color: #e9d4ff;
+}
+
+.topBorder {
+  height: 50px;
+  width: 100%;
+  background-color: #e8d4ff;
+}
+
+.moveSection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.moveButtons {
+  height: 46px;
+  background: #580ea2;
+  border-radius: 6px;
+  color: white;
+  width: 154px;
+}
+.movesBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.p {
+  padding-left: 40px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.gameResultContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.playButton {
+  height: 46px;
+  left: 0px;
+  top: 278px;
+  background: #580ea2;
+  border-radius: 6px;
+  color: white;
+  margin-top: 30px;
+}
+
+.playButton:hover {
+  background: #271a58;
+}
+.buttons {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.lobbySection {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.playerName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background: #f9ebff;
+  border-radius: 36px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+.lobbyPlayerList {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gameText {
+  padding-left: 40px;
+  padding-left: 40px;
+}
+.waiter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
