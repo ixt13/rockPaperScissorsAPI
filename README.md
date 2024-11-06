@@ -1,0 +1,1 @@
+This is an online implementation of the classic Rock, Paper, Scissors game, built using Vanilla JavaScript. The game logic is powered by an API interaction, which makes the gameplay dynamic and engaging.
